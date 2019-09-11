@@ -52,9 +52,7 @@ are invoked using `!pip install`.
 ### The program for these GoLIVE notebooks
 
 * Learn about GoLIVE _somehow_ (word of mouth discovery)
-
 * Arrive thereby at the GoLIVE [home page](https://nsidc.org/data/NSIDC-0710) and the GoLIVE [map interface](https://nsidc.org/app/golive)
-
 * Select a region and discover its Landsat 8 Path-Row frame
   * Arrive at the corresponding FTP server URL - now we can get data
   * Get a bunch of data. 
@@ -100,19 +98,23 @@ due to clouds, however. For more on Landsaat 8:
 ### NASA, GoLIVE and ITS LIVE
 
 * NASA has a system called EOSDIS (Earth observing system Data and Information System) where datasets are provided by domain centers called DAACs (Distributed Active Archive Centers) (more [info](https://ieeexplore.ieee.org/abstract/document/528217) on this data hosting infrastructure)
+
 * NSIDC (National Snow and Ice Data Center) hosts a cryosphere DAAC...
   * ...but the GoLIVE data are not technically _within_ the DAAC
   * ...rather GoLIVE is provided by NSIDC as a somewhat independent resource
+  
 * The DAACs in turn are unified under a NASA discovery mechanism called the Common Metadata Repository (CMR)
+
 * The GoLIVE successor project ITS LIVE (Inter-Mission Time Series of Land Ice Velocity and Elevation) will be available through the CMR via affiliation with NASA MEaSUREs 
   * More on [MEaSUREs](https://earthdata.nasa.gov/community/community-data-system-programs/measures-projects) (Making Earth System Data Records for Use in Research Environments)
+
 * Question: Can the geoscience community improve this machinery for discoverability and use?
   * Notebooks like ones in this repo are intended to help
 
 
 ### Remarks on data discovery
 
-The NASA CMR shows NSIDC as a DAAC with (Dec 2018) 343 collections (a fascinating list). However GoLIVE is not among them; that is GoLIVE is not discoverable via CMR/GIBS. This point should become moot when ITSLIVE -- a superset of GoLIVE -- appears in CMR.
+The NASA CMR shows NSIDC as a DAAC with (Dec 2018) 343 collections (a fascinating list). However GoLIVE is not among them; that is, GoLIVE is not discoverable via CMR/GIBS. This point should become moot when ITS LIVE - a superset of GoLIVE - appears in CMR.
  
 The 'word of mouth' nature of certain datasets is often decried as lost opportunity. GoLIVE certainly falls in that category by not being available in the CMR, for perhaps both top-down and bottom-up historical reasons. First there seems to be no top-down mechanism in place to couple NASA machinery to Principle Investigator-supplied data. Secondly bottom-up or grass roots discoverability paths for bespoke datasets are also not established at the individual NASA DAACs.   
 
