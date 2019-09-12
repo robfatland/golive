@@ -12,7 +12,7 @@ In a bit more detail: Glaciers have annual variation in flow speed on the order 
 
 The study site considered here is a region in southeast Alaska (Wrangell-St. Elias range) which is known to be in rapid retreat in response to increasing temperature \[Citation needed\]. If the ice is thinning then it has less driving stress and should slow down. Maybe that deceleration is apparent in the data.
 
-I started with only a rudimentary understanding of data formats and Python data manipulation tools. These `golive` notebooks are consequently self-tutorials on `xarray` and related machinery.
+I started with only a rudimentary understanding of data formats and Python data manipulation tools. These _golive_ notebooks are consequently self-tutorials on `xarray` and related machinery.
 
 
 ## Useful references
@@ -46,7 +46,7 @@ are invoked using `!pip install`.
 * [golive3](./golive3.ipynb) extends golive2 in scope of data
 * [golive4](./golive4.ipynb) is a tutorial
 * [golive5](./golive5.ipynb) is resources for building the tutorial golive4
-* [goliveLibrary.py](./goliveLibrary.ipynb) should be re-factored into notebooks (but it is suggestive of library-building)
+* [goliveLibrary.py](./goliveLibrary.ipynb) common utility functions
 
 
 ### The program for these GoLIVE notebooks
@@ -124,15 +124,7 @@ GoLIVE was funded as a NASA cryosphere research proposal: Successfully completed
 indeterminate future. As of January 2019: There are nominal continuing costs associated with 
 processing, storage and access mechanisms for GoLIVE that are not resolved. 
 
-As noted, GoLIVE will be succeeded by a new 
-[MEaSUREs](https://earthdata.nasa.gov/community/community-data-system-programs/measures-projects)
-product called the Inter-Mission Time Series Land Ice Velocity and Elevation (ITS LIVE) project.
-Noting that this will add surface elevation data, ITS LIVE is entering its first year and 
-will span many observing platforms. Velocities will be produced, for example, from the complete 
-available Landsat sequence (4, 5, 7, 8, possibly 9), and elevations will be produced from 
-Synthetic Aperture Radars including [Sentinal S1A/B/C/D](https://en.wikipedia.org/wiki/Sentinel-1).  
-Postings will be registered to a common grid to facilitate time-series comparison across sensors. 
-Via MEaSUREs this effort will incorporate into the NASA DAAC/EOSDIS structure.
+As noted, GoLIVE will be succeeded by a new [MEaSUREs](https://earthdata.nasa.gov/community/community-data-system-programs/measures-projects) product called the Inter-Mission Time Series Land Ice Velocity and Elevation (ITS LIVE) project. Noting that this will add surface elevation data, ITS LIVE is entering its first year and will span many observing platforms. Velocities will be produced, for example, from the complete available Landsat sequence (4, 5, 7, 8, possibly 9), and elevations will be produced from Synthetic Aperture Radars including [Sentinal S1A/B/C/D](https://en.wikipedia.org/wiki/Sentinel-1). Postings will be registered to a common grid to facilitate time-series comparison across sensors. Via MEaSUREs this effort will incorporate into the NASA DAAC/EOSDIS structure.
 
 
 ### A note on the two types of coordinates involved
