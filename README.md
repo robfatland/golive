@@ -23,7 +23,7 @@ I started with only a rudimentary understanding of data formats and Python data 
 - [Scott's corresponding NDVI Binder](http://binder.pangeo.io/v2/gh/scottyhq/pangeo-example-notebooks/landsat-cog?urlpath=lab/tree/landsat8-cog-ndvi.ipynb)
 - [Scott's HIMAT Webinar](http://wiki.esipfed.org/index.php/Interoperability_and_Technology/Tech_Dive_Webinar_Series#14_Feb_2019:_.22Cloud_Native_Geoprocessing_of_Earth_Observation_Satellite_Data_with_Pangeo.22:_Scott_Henderson_.28University_of_Washington.29)
 - [Andrew Tedstone remark on counting occurrences in xarray/dask](http://atedstone.github.io/count-with-xarray/)
-- [pangeo](http://pangeo.io)
+- [Pangeo](http://pangeo.io)
 - [NASA panoply NetCDF explorer](https://www.giss.nasa.gov/tools/panoply/)
 
 
