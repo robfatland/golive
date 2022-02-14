@@ -46,6 +46,6 @@ class GoliveLibrary():
         locale = pstring.find('central_meridian')
         return int(pstring[locale+18:locale+22])
 
-# Test either of the 'show image' functions
+# Test either of the 'show image' functions...
 # GoliveLibrary.show_github_image('robfatland', 'othermathclub', 'images/cellular', 'conus_textile_shell_2.png', home_d, 'ctextile.jpg', 450, 250)
 # GoliveLibrary.show_local_image(home_d, 'ctextile.jpg', 450, 250)
